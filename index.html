@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>IOS App</title>
+        <link rel="stylesheet" href="./style.css">
+        <link id="darkModeStyleSheet" rel="stylesheet" href="./styleDark.css">
+        <script src="./logic.js"></script>
+    </head>
+    <body onload="toggleDarkMode()">
+        <div class="container">
+            <header>
+                <h1>MAITRE D</h1>
+            </header>
+            <hr>
+            <main>
+                <br><br>
+                <span class="label">Total:</span>
+                <input type="number" class="pullRight" id="totalInput" style="width: 80%;" onchange="calculate()">
+                <br>
+                <span id="errorMSG"></span>
+                <br>
+                <span class="label">Tip:</span>
+                <span id="tipInfo"></span>
+                <span class="pullRight">
+                    <span class="label">Rate:</span>
+                    <input type="number" id="rateInput" onchange="calculate()">
+                </span>
+                <br><br>
+                <span class="label">Tax:</span>
+                <span id="taxInfo"></span>
+                <br><br>
+                <span class="label">Grand Total:</span>
+                <span id="grandTotalInfo"></span>
+                <br><br>
+                <div id="calculateBTN" onmousedown="calculate()">Calculate</div>
+                <br><br>
+<!--                <div id="darkModeBTN" onmousedown="toggleDarkMode()">Click me</div>-->
+            </main>
+            <hr>
+            <footer>
+                <p>Developed by Sai Rohith Gorla</p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+html {
+    font-family: "Avenir", "Century Gothic", sans-serif;
+    background-color: orchid;
+    
+}
+
+.container {
+    margin: 0 30%;
+}
+
+header, footer {
+    text-align: center;
+}
+
+.label {
+    font-size: 20px;
+}
+
+#errorMSG {
+    color: red;
+    font-size: 14px;
+}
+
+input {
+    height: 20px;
+    border: 1px orangered;
+    border-radius: 10px;
+}
+
+#grandTotalInfo {
+    font-size: 24px;
+    color: #3D6ACC;
+}
+
+#calculateBTN {
+    display: ruby-base;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px orangered;
+    border-radius: 40px;
+}
+
+#calculateBTN:hover {
+    cursor: pointer;
+    background-color:brown;
+}
+
+.pullRight {
+    float: right;
+}
+
+#darkModeBTN {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px paleturquoise;
+    border-radius: 40px;
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+}
+
+#darkModeBTN:hover {
+    cursor: pointer;
+}
